@@ -1,0 +1,307 @@
+{
+    "grammar": [
+        {
+            "explanation": "Short answers can use the verbs 'er', 'har', 'kan', 'skal', 'må', and 'vil'. Everything else must use 'gør' (meaning 'do').",
+            "examples": [
+                "A: Bor du i københavn? B: Ja, det gør jeg.",
+                "A: Kan du tale dansk? B: Ja, det kan jeg."
+            ],
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "explanation": "På and I are prepositions. There are no good rules for when to use them. På is more like 'on' and I is more like 'in'.",
+            "examples": [
+                "Har du været på arbejde i dag? (Arbejde is always 'på')",
+                "Har du været i skole i dag. (Skole is always 'i')",
+                "Jeg bor i København (Cities are typically 'i')",
+                "Jeg bor i Nyhavn",
+                "Jeg bor i Valby (Some neighbourhoods are historically cities)",
+                "Jeg bor i Vanløse",
+                "Jeg bor i Brønshoj",
+                "Jeg bor i Ørestad",
+                "Jeg bor i Sydhavn",
+                "Jeg bor på Versterbro",
+                "Jeg bor på Østerbro",
+                "Jeg bor på Nørrebro",
+                "Jeg bor på Frederiksberg",
+                "Jeg bor på Christianshavn",
+                "Jeg bor på Christiania",
+                "Jeg bor på Islands Brygge",
+                "Jeg bor på Holmen",
+                "Jeg bor på Amager (Islands are typically 'på')"
+            ],
+            "tags": [
+                "prepositions"
+            ]
+        },
+        {
+            "explanation": "'Henne' is a positional adverb. 'Hen' is a directional adverb",
+            "examples": [
+                "Hvor bor du henne? (Where do you live [at]?)",
+                "Hvor går du hen? (Where are you walking [to]?)"
+            ],
+            "tags": [
+                "place-adverbs"
+            ]
+        },
+        {
+            "explanation": "Hjem/Hjemme (home) is special, like in English. We don't say 'I am going to home', we say, 'I am going home'. 'Hjemme' is positional, 'Hjem' is directional.",
+            "examples": [
+                "Jeg skal hjem",
+                "Jeg er hjemme"
+            ],
+            "tags": [
+                "place-adverbs"
+            ]
+        },
+        {
+            "explanation": "Central adverbs like 'ikke', 'aldrig', 'altid' come between the verb and the noun.",
+            "examples": [
+                "Jeg spiser ikke brød (I don't eat bread)",
+                "Jeg drikke altid kaffe i morgen (I always drink coffee in the morning)",
+                "Jeg spiser aldrig morgenmad (I never eat breakfast)"
+            ],
+            "tags": [
+                "central-adverbs"
+            ]
+        }
+    ],
+    "phrases": [
+        {
+            "dk": "Du ser godt ud",
+            "en": "You look good"
+        },
+        {
+            "dk": "A: Hvordan går det? B: De går godt",
+            "en": "A: How goes it? B: It goes good."
+        },
+        {
+            "dk": "Vi ses i morgen",
+            "en": "I'll see you tomorrow"
+        },
+        {
+            "dk": "Det er hardt at lære dansk",
+            "en": "It is hard to learn Danish"
+        },
+        {
+            "dk": "A: Hvordan er din pizza? B: Det er virkelig godt",
+            "en": "A: How is your pizza? B: It is really good"
+        },
+        {
+            "dk": "Hvad er dit navn?",
+            "en": "What is your name?"
+        },
+        {
+            "dk": "Hvad er klokken?",
+            "en": "What is the time?"
+        },
+        {
+            "dk": "A: Er du dansker? B: Ja, det er jeg",
+            "en": "A: Are you danish? B: Yes I am",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "A: Har du en bil? B: Ja, det har jeg",
+            "en": "A: Do you have a car? B: Yes, I have",
+            "notes": "Never say 'Ja, det har jeg en bil'.",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "A: Har du en cykel? B: Nej, det har jeg ikke",
+            "en": "A: Do you have a bike? B: No, I don't.",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "A: Kan du hente mig fra arbejde. B: Nej, det kan jeg ikke. Jeg har ikke nogen bil lige nu.",
+            "en": "A: Can you pick me up from work? B: No, I can't. I don't have a car right now.",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "Nogle gang",
+            "en": "Sometimes",
+            "notes": "Prounounced like 'noweng-gang'"
+        },
+        {
+            "dk": "Bor du i Danmark?",
+            "en": "Do you live in Denmark?"
+        },
+        {
+            "dk": "A: Er du ikke Dansker? B: Jo, det er jeg",
+            "en": "A: Are you not Danish? B: Yes, I am",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "A: har du ikke et job? B: Nej, det har jeg ikke",
+            "en": "A: Do you not have a job? B: No, I don't",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "A: er du ikke glad for at bo i københavn? B: Jo, det er jeg",
+            "en": "A: are you not happy to live in Copenhagen? B: Yes, I am",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "Kan du tale dansk?",
+            "en": "Can you speak Danish?"
+        },
+        {
+            "dk": "Kan du hjælpe mig? B: Nej, det kan jeg ikke",
+            "en": "A: Can you help me? B: No, I can't",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "A: Kan du lave kinesisk mad? B: Ja, det kan jeg",
+            "en": "A: Can you cook Chinese food? B: Yes, I can",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "A: Bor du her i københavn? B: Ja, det gør jeg",
+            "en": "A: Do you live here in Copenhagen? B: Yes, I do",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "Jeg bor i københavn",
+            "en": "I live in copenhagen",
+            "tags": [
+                "prepositions"
+            ]
+        },
+        {
+            "dk": "Jeg bor på amager",
+            "en": "I live in amager",
+            "tags": [
+                "prepositions"
+            ]
+        },
+        {
+            "dk": "A: Hvor skal i hen? B: Jeg skal hjem. C: Jeg skal på arbejde",
+            "en": "A: Where are you going [to]? B: I am going home. C: I am going to work",
+            "tags": [
+                "place-adverbs",
+                "prepositions"
+            ]
+        },
+        {
+            "dk": "Hvor er du henne?",
+            "en": "Where are you [at]?",
+            "tags": [
+                "place-adverbs"
+            ]
+        },
+        {
+            "dk": "Hvor skal du hen?",
+            "en": "Where are you going [to]?",
+            "tags": [
+                "place-adverbs"
+            ]
+        },
+        {
+            "dk": "Jeg skal ud at drikke en øl med en ven",
+            "en": "I am going to to drink a beer with a friend",
+            "tags": [
+                "infinitives"
+            ]
+        },
+        {
+            "dk": "Jeg skal ud at spise",
+            "en": "I am going out to eat",
+            "tags": [
+                "infinitives"
+            ]
+        },
+        {
+            "dk": "Jeg bor på Vesterbro",
+            "en": "I live in Vesterbro",
+            "tags": [
+                "prepositions"
+            ]
+        },
+        {
+            "dk": "Hvor arbejde du?",
+            "en": "Where do you work?"
+        },
+        {
+            "dk": "A: Bor du i Danmark? B: Nej, det går jeg ikke. A: Hvor bor du så?",
+            "en": "A: Do you live in Denmark? B: No, I don't. A: Where do you live then?",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "A: Har du et job? B: Nej, det har jeg ikke. A: Hvad laver du så? B: Jeg er abjedsløs",
+            "en": "A: Do you have a job? B: No, I don't. A: What do you do then? B: I am unemployed",
+            "tags": [
+                "short-answer"
+            ]
+        },
+        {
+            "dk": "Hvor hænger din jakke",
+            "en": "Where is your jacket hanging?"
+        },
+        {
+            "dk": "A: Hvor er min nøgler? B: De ligger på bordet",
+            "en": "A: Where are my keys? B: They are lying on the table"
+        },
+        {
+            "dk": "A: Hvor er min flaske? B: Den står på bordet",
+            "en": "A: Where is my bottle? B: It is standing on the table"
+        },
+        {
+            "dk": "A: Hvordan var det? B: Det var [sjovt/dejligt/fedt/fantastisk/spændende]",
+            "en": "A: How was it? B: It was [nice/nice/cool/fantastic/exciting]"
+        },
+        {
+            "dk": "Hun var lækker",
+            "en": "She was hot"
+        },
+        {
+            "dk": "Han var flot",
+            "en": "He was handsome"
+        },
+        {
+            "dk": "Hun var virkelig sød",
+            "en": "She was really nice"
+        },
+        {
+            "dk": "Hvordan kommer du på arbejde?",
+            "en": "How do you get to work?",
+            "tags": [
+                "prepositions"
+            ]
+        },
+        {
+            "dk": "Hvordan kommer du rundt i København?",
+            "en": "How do you get around in Copenhagen?"
+        },
+        {
+            "dk": "Har du været i Aarhus?",
+            "en": "Have you been to Aarhus?"
+        },
+        {
+            "dk": "Hvad ska du i weekenden",
+            "en": "What are you up to this weekend?"
+        }
+    ]
+}
