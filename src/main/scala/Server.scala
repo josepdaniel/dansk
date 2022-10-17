@@ -25,14 +25,14 @@ enum FlashcardError {
 case class Phrase(
     dk: String,
     en: String,
-    tags: Option[Vector[String]],
+    tags: Option[Set[String]],
     notes: Option[String]
 ) derives Codec.AsObject
 
 case class Grammar(
     explanation: String,
     examples: Vector[String],
-    tags: Option[Vector[String]],
+    tags: Option[Set[String]],
     relevantPhrases: Option[Vector[Phrase]]
 ) derives Codec.AsObject
 
@@ -40,6 +40,9 @@ case class Flashcards (
     phrases: Vector[Phrase],
     grammar: Vector[Grammar]
 ) derives Codec.AsObject  {
+    def join: Flashcards = Flashcards(phrases, grammar.map{g => 
+        g.copy(relevantPhrases = Some(phrases.filter(p => p.tags.exists(t => t.intersect(g.tags.getOrElse(Set.empty)).size > 0 ))))
+    })
     def randomPhrase: IO[Phrase] = IO(Random.between(0, phrases.size)).map(idx => phrases(idx))
     def randomPhraseWithTag(tag: String): IO[Either[FlashcardError, Phrase]] = {
         val eligible = phrases.filter(_.tags.exists(v => v.contains(tag)))
@@ -59,7 +62,7 @@ object Server {
 
     // Fail fast if the json file can't be parsed
     val routes = fileAsString("src/main/resources/flashcards.json").use { source => 
-        val flashcards = decode[Flashcards](source).toOption.get
+        val flashcards = decode[Flashcards](source).toOption.get.join
     
         IO(HttpRoutes.of[IO] { 
             case GET -> Root / "phrase" / "random" :? Tag(tag) => tag match {
